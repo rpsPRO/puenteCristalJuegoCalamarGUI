@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="juegoCalamarConInterfaz.JuegoBaldosasCristal">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1858" height="814"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f1ff3" binding="panelInformacion" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e87d8" binding="panelInfo" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="cf177" class="javax.swing.JLabel" binding="nombreJuego">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="DejaVu Serif" size="36"/>
+                  <foreground color="-65536"/>
+                  <text value="JUEGO DEL CALAMAR"/>
+                </properties>
+              </component>
+              <hspacer id="afad0">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <component id="34e88" class="javax.swing.JLabel" binding="etiquetaInformacion">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="a970e" binding="panelPuente" layout-manager="GridLayoutManager" row-count="6" column-count="19" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-16119286"/>
+          <font/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e7ff6" class="javax.swing.JLabel" binding="baldosa3A">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ab074" class="javax.swing.JLabel" binding="baldosa4A">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="86caf" class="javax.swing.JLabel" binding="baldosa5A">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1bf" class="javax.swing.JLabel" binding="baldosa6A">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d3461" class="javax.swing.JLabel" binding="baldosa7A">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ca7bc" class="javax.swing.JLabel" binding="baldosa8A">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9681f" class="javax.swing.JLabel" binding="baldosa9A">
+            <constraints>
+              <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="45957" class="javax.swing.JLabel" binding="baldosa10A">
+            <constraints>
+              <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7fcb4" class="javax.swing.JLabel" binding="baldosa11A">
+            <constraints>
+              <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c12f2" class="javax.swing.JLabel" binding="baldosa12A">
+            <constraints>
+              <grid row="2" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="99ff1" class="javax.swing.JLabel" binding="baldosa13A">
+            <constraints>
+              <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1950f" class="javax.swing.JLabel" binding="baldosa14A">
+            <constraints>
+              <grid row="2" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8d683" class="javax.swing.JLabel" binding="baldosa15A">
+            <constraints>
+              <grid row="2" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="83bd3" class="javax.swing.JLabel" binding="baldosa16A">
+            <constraints>
+              <grid row="2" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="52dca" class="javax.swing.JLabel" binding="baldosa17A">
+            <constraints>
+              <grid row="2" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e5936" class="javax.swing.JLabel" binding="baldosa18A">
+            <constraints>
+              <grid row="2" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="caf9a" class="javax.swing.JLabel" binding="baldosa3B">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4c00" class="javax.swing.JLabel" binding="baldosa4B">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4cc9b" class="javax.swing.JLabel" binding="baldosa5B">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="efbee" class="javax.swing.JLabel" binding="baldosa6B">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dd416" class="javax.swing.JLabel" binding="baldosa7B">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="91291" class="javax.swing.JLabel" binding="baldosa8B">
+            <constraints>
+              <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="eab8f" class="javax.swing.JLabel" binding="baldosa9B">
+            <constraints>
+              <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7d295" class="javax.swing.JLabel" binding="baldosa10B">
+            <constraints>
+              <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="86d5a" class="javax.swing.JLabel" binding="baldosa11B">
+            <constraints>
+              <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b8dc4" class="javax.swing.JLabel" binding="baldosa12B">
+            <constraints>
+              <grid row="3" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e202c" class="javax.swing.JLabel" binding="baldosa13B">
+            <constraints>
+              <grid row="3" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f8ca3" class="javax.swing.JLabel" binding="baldosa14B">
+            <constraints>
+              <grid row="3" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7d01e" class="javax.swing.JLabel" binding="baldosa15B">
+            <constraints>
+              <grid row="3" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="cfacd" class="javax.swing.JLabel" binding="baldosa16B">
+            <constraints>
+              <grid row="3" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4b461" class="javax.swing.JLabel" binding="baldosa17B">
+            <constraints>
+              <grid row="3" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2803b" class="javax.swing.JLabel" binding="baldosa18B">
+            <constraints>
+              <grid row="3" column="17" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="427d5" class="javax.swing.JLabel" binding="baldosa1B">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4bb07" class="javax.swing.JLabel" binding="baldosa2A">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ef8e9" class="javax.swing.JLabel" binding="baldosa2B">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal2.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1f491" class="javax.swing.JLabel" binding="baldosa1A">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/cristal1.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="59f72">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="5a692">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="ffaaa" binding="panelInicio" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-15791848"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ee00e" class="javax.swing.JLabel" binding="etiquetaInicio">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/inicio.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f103f" binding="panelFinal" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-15791848"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d2275" class="javax.swing.JLabel" binding="etiquetaFinal">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="juegoCalamarConInterfaz/imagenes/final.PNG"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
